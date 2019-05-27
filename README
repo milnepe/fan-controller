@@ -9,3 +9,5 @@ Run FanConntrollerTest.py on PC to simulate output, configure to Arduino port / 
 python3 FanController.py -p 'COM3' -b 9600
 
 The python app simulates output and should show in Arduino serial monitor
+
+Requires pyserial
