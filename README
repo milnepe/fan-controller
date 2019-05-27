@@ -1,0 +1,11 @@
+Arduino Fan Controller
+
+FanControllerTest
+
+Flash FanControllerTest.ino on to Arduino and configure for serial port
+
+Run FanConntrollerTest.py on PC to simulate output, configure to Arduino port / baud rate eg:
+
+python3 FanController.py -p 'COM3' -b 9600
+
+The python app simulates output and should show in Arduino serial monitor
